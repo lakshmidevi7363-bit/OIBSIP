@@ -157,7 +157,7 @@ Through these projects, I gained practical experience in:
 
 ---
 
-# ▶️ How to Run the Projects
+# How to Run the Projects
 
 ## 1. Clone the Repository
 
@@ -207,7 +207,7 @@ python app.py
 
 ---
 
-# 🔑 Weather Application API Key
+# Weather Application API Key
 
 The Weather Application uses the **OpenWeather API** to retrieve real-time weather information.
 
