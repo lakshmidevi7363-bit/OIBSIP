@@ -70,6 +70,7 @@ Python-Task2-BMICalculator/
 │   └── bmi-trend.png
 │
 └── venv/
+```
 
 The `venv` directory is a local Python virtual environment and is excluded from GitHub using `.gitignore`.
 
