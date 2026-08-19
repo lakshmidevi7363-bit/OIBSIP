@@ -161,75 +161,125 @@ Through these projects, I gained practical experience in:
 
 ---
 
-## How to Run the Projects
+# ▶️ How to Run the Projects
 
-### 1. Clone the Repository
+## 1. Clone the Repository
 
 ```bash
 git clone https://github.com/lakshmidevi7363-bit/OIBSIP.git
+```
 
-2. Navigate to a Project
+## 2. Navigate to a Project
 
-For example:
+For example, to run the Weather Application:
 
+```bash
 cd OIBSIP/Python-Task4-WeatherApplication
-3. Create a Virtual Environment
+```
+
+## 3. Create a Virtual Environment
+
+```bash
 python3 -m venv venv
-4. Activate the Virtual Environment
+```
 
-macOS / Linux:
+## 4. Activate the Virtual Environment
 
+### macOS / Linux
+
+```bash
 source venv/bin/activate
+```
 
-Windows:
+### Windows
 
+```bash
 venv\Scripts\activate
-5. Install Dependencies
+```
+
+## 5. Install Dependencies
+
+```bash
 pip install -r requirements.txt
-6. Run the Application
+```
+
+## 6. Run the Application
+
+```bash
 python app.py
-Weather Application API Key
+```
 
-The Weather Application uses an OpenWeather API key.
+---
 
-The API key is stored in a .env file and is excluded from Git using .gitignore.
+# 🔑 Weather Application API Key
 
-Create a .env file inside the Weather Application folder:
+The Weather Application uses the **OpenWeather API** to retrieve real-time weather information.
 
+The API key is stored in a `.env` file and is excluded from Git using `.gitignore`.
+
+Create a `.env` file inside the Weather Application folder:
+
+```text
 OPENWEATHER_API_KEY=your_api_key_here
+```
 
-Important: Never commit or publicly share your actual API key.
+> ⚠️ **Important:** Never upload or publicly share your actual API key.
 
-Screenshots
+---
 
-Screenshots demonstrating the functionality of each project are available inside their respective project folders.
+# 📸 Screenshots
 
-BMI Calculator
+Screenshots for each project are available inside their respective project folders.
 
-View BMI Calculator Screenshots
+### 🧮 BMI Calculator
 
-Random Password Generator
+[View BMI Calculator Screenshots](./Python-Task2-BMICalculator/screenshots/)
 
-View Random Password Generator Screenshots
+### 🔐 Random Password Generator
 
-Weather Application
+[View Random Password Generator Screenshots](./Python-Task3-RandomPasswordGenerator/screenshots/)
 
-View Weather Application Screenshots
+### 🌤️ Weather Application
 
-Internship Information
+[View Weather Application Screenshots](./Python-Task4-WeatherApplication/screenshots/)
 
-Organization: Oasis Infobyte
-Program: Python Programming Internship
-Repository: OIBSIP
+---
 
-Author
+# 📚 Project Documentation
 
-Lakshmi Devi R
+Each project contains its own README file with detailed information about:
+
+- Project overview
+- Features
+- Technologies used
+- Installation
+- How to run
+- Project structure
+- Screenshots
+- Future improvements
+
+---
+
+# 👨‍💻 Internship Information
+
+**Organization:** Oasis Infobyte  
+**Program:** Python Programming Internship  
+**Repository:** OIBSIP
+
+---
+
+# 👤 Author
+
+**Lakshmi Devi R**
 
 Python Programming Intern
 
-Acknowledgement
+---
 
-I would like to thank Oasis Infobyte for providing me with the opportunity to work on these practical Python programming projects and gain hands-on experience in application development.
+# 🙏 Acknowledgement
 
-⭐ If you find this repository useful, feel free to explore the individual projects.
+I would like to thank **Oasis Infobyte** for providing me with the opportunity to work on these practical Python programming projects and gain hands-on experience in application development.
+
+---
+
+⭐ **Thank you for visiting this repository!**
