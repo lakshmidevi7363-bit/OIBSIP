@@ -223,19 +223,19 @@ OPENWEATHER_API_KEY=your_api_key_here
 
 ---
 
-# 📸 Screenshots
+# Screenshots
 
 Screenshots for each project are available inside their respective project folders.
 
-### 🧮 BMI Calculator
+### BMI Calculator
 
 [View BMI Calculator Screenshots](./Python-Task2-BMICalculator/screenshots/)
 
-### 🔐 Random Password Generator
+### Random Password Generator
 
 [View Random Password Generator Screenshots](./Python-Task3-RandomPasswordGenerator/screenshots/)
 
-### 🌤️ Weather Application
+### Weather Application
 
 [View Weather Application Screenshots](./Python-Task4-WeatherApplication/screenshots/)
 
