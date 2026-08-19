@@ -1,24 +1,57 @@
 # BMI Calculator
 
-A Python-based BMI Calculator developed as part of the Oasis Infobyte Python Programming Internship.
+A desktop-based BMI Calculator built with Python and Tkinter. The application calculates Body Mass Index, classifies the result into standard health categories, stores BMI records using SQLite, and visualizes BMI trends using Matplotlib.
 
 ## Features
 
-- Calculate Body Mass Index (BMI)
-- Display BMI category
-- Store BMI records using SQLite
-- View previous BMI records
-- Display BMI trends using a graph
-- Input validation
-- Error handling
-- Simple graphical user interface
+- User-friendly graphical interface using Tkinter
+- User name, weight, and height input
+- BMI calculation using the standard formula
+- BMI classification:
+  - Underweight
+  - Normal
+  - Overweight
+  - Obese
+- Input validation for invalid and negative values
+- Color-coded BMI category feedback
+- Multiple-user support
+- SQLite database for storing BMI records
+- Historical BMI records for each user
+- BMI trend visualization using Matplotlib
+- Error handling for database operations
+- Clear form functionality
+
+## BMI Formula
+
+BMI is calculated using:
+
+BMI = Weight (kg) / Height² (m²)
+
+For example:
+
+Weight = 60 kg  
+Height = 1.65 m
+
+BMI = 60 / (1.65 × 1.65)
+
+BMI = 22.04
+
+## BMI Categories
+
+| BMI Range | Category |
+|---|---|
+| Below 18.5 | Underweight |
+| 18.5 – 24.9 | Normal |
+| 25.0 – 29.9 | Overweight |
+| 30.0 and above | Obese |
 
 ## Technologies Used
 
-- Python
+- Python 3
 - Tkinter
-- SQLite
+- SQLite3
 - Matplotlib
+- datetime
 
 ## Project Structure
 
@@ -37,7 +70,6 @@ Python-Task2-BMICalculator/
 │   └── bmi-trend.png
 │
 └── venv/
-```
 
 The `venv` directory is a local Python virtual environment and is excluded from GitHub using `.gitignore`.
 
