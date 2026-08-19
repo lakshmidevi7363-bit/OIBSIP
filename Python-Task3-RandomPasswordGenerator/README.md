@@ -82,21 +82,10 @@ python app.py
 
 ## Screenshots
 
-### Main Interface
-
-![Main Interface](./screenshots/main-interface.png)
-
-### Generated Password
-
-![Generated Password](./screenshots/generated-password.png)
-
-### Custom Password Length
-
-![Custom Password Length](./screenshots/custom-length.png)
-
-### Character Options
-
-![Character Options](./screenshots/options-test.png)
+- [Main Interface](./screenshots/main-interface.png)
+- [Generated Password](./screenshots/generated-password.png)
+- [Custom Password Length](./screenshots/custom-length.png)
+- [Character Options](./screenshots/options-test.png)
 
 ## Future Improvements
 
