@@ -142,21 +142,10 @@ The database file is excluded from GitHub using `.gitignore`.
 
 ## Screenshots
 
-### Main Interface
-
-![Main Interface](./screenshots/main-interface.png)
-
-### BMI Result
-
-![BMI Result](./screenshots/bmi-result.png)
-
-### BMI History
-
-![BMI History](./screenshots/bmi-history.png)
-
-### BMI Trend
-
-![BMI Trend](./screenshots/bmi-trend.png)
+- [Main Interface](./screenshots/main-interface.png)
+- [BMI Result](./screenshots/bmi-result.png)
+- [BMI History](./screenshots/bmi-history.png)
+- [BMI Trend](./screenshots/bmi-trend.png)
 
 ## Input Validation
 
