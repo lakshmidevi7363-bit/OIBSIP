@@ -40,39 +40,68 @@ Python-Task3-RandomPasswordGenerator/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
-Requirements
+## Requirements
 
-Install the required package using:
+Install the required packages using:
 
+```bash
 pip install -r requirements.txt
-How to Run
+```
 
-Activate the virtual environment:
+## How to Run
 
+### 1. Activate the Virtual Environment
+
+#### macOS / Linux
+
+```bash
 source venv/bin/activate
+```
 
-Run the application:
+#### Windows
 
+```bash
+venv\Scripts\activate
+```
+
+### 2. Run the Application
+
+```bash
 python app.py
-How to Use
-Enter the desired password length.
-Select the character types you want.
-Click Generate Password.
-The generated password will appear on the screen.
-Click Copy Password to copy it to the clipboard.
-Screenshots
-Main Interface
+```
 
-Generated Password
+## How to Use
 
-Custom Password Length
+1. Enter the desired password length.
+2. Select the character types you want to include.
+3. Click **Generate Password**.
+4. The generated password will appear on the screen.
+5. Click **Copy Password** to copy the password to the clipboard.
 
-Character Options
+## Screenshots
 
-Future Improvements
-Password strength indicator
-Password history
-Save generated passwords
-Dark mode
-More customization options
+### Main Interface
+
+![Main Interface](./screenshots/main-interface.png)
+
+### Generated Password
+
+![Generated Password](./screenshots/generated-password.png)
+
+### Custom Password Length
+
+![Custom Password Length](./screenshots/custom-length.png)
+
+### Character Options
+
+![Character Options](./screenshots/options-test.png)
+
+## Future Improvements
+
+- Password strength indicator
+- Password history
+- Save generated passwords
+- Dark mode
+- More customization options
