@@ -108,23 +108,12 @@ python app.py
 
 The Weather Application window will open.
 
-## Screenshots
+### Screenshots
 
-### Main Interface
-
-![Main Interface](./screenshots/main-interface.png)
-
-### Chennai Weather
-
-![Chennai Weather](./screenshots/chennai-weather.png)
-
-### Mumbai Weather
-
-![Mumbai Weather](./screenshots/mumbai-weather.png)
-
-### Invalid City
-
-![Invalid City](./screenshots/invalid-city.png)
+- [Main Interface](./screenshots/main-interface.png)
+- [Chennai Weather](./screenshots/chennai-weather.png)
+- [Mumbai Weather](./screenshots/mumbai-weather.png)
+- [Invalid City](./screenshots/invalid-city.png)
 
 ## Security
 
