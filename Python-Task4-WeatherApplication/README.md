@@ -38,6 +38,7 @@ Python-Task4-WeatherApplication/
 ├── README.md
 ├── .env
 └── .gitignore
+```
 
 How to Run
 1. Clone the repository
