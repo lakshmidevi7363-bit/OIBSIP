@@ -40,47 +40,105 @@ Python-Task4-WeatherApplication/
 └── .gitignore
 ```
 
-How to Run
-1. Clone the repository
-git clone https://github.com/lakshmidevi7363-bit/OIBSIP.git
-2. Navigate to the project
-cd OIBSIP/Python-Task4-WeatherApplication
-3. Create a virtual environment
-python3 -m venv venv
-4. Activate the virtual environment
+> The `.env` file contains the API key and is excluded from GitHub using `.gitignore`.
 
-On macOS/Linux:
+## Requirements
 
-source venv/bin/activate
-5. Install dependencies
+Install the required packages using:
+
+```bash
 pip install -r requirements.txt
-6. Configure the API key
+```
 
-Create a .env file and add:
+## How to Run
 
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/lakshmidevi7363-bit/OIBSIP.git
+```
+
+### 2. Navigate to the Project
+
+```bash
+cd OIBSIP/Python-Task4-WeatherApplication
+```
+
+### 3. Create a Virtual Environment
+
+```bash
+python3 -m venv venv
+```
+
+### 4. Activate the Virtual Environment
+
+#### macOS / Linux
+
+```bash
+source venv/bin/activate
+```
+
+#### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+### 5. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 6. Configure the API Key
+
+Create a `.env` file inside the project folder and add:
+
+```text
 OPENWEATHER_API_KEY=your_api_key_here
+```
 
-Replace your_api_key_here with your own OpenWeather API key.
+Replace `your_api_key_here` with your own OpenWeather API key.
 
-7. Run the application
+### 7. Run the Application
+
+```bash
 python app.py
-Screenshots
-Main Interface
+```
 
-Chennai Weather
+The Weather Application window will open.
 
-Mumbai Weather
+## Screenshots
 
-Invalid City
+### Main Interface
 
-Security
+![Main Interface](./screenshots/main-interface.png)
 
-The OpenWeather API key is stored in a .env file and should not be committed to GitHub.
+### Chennai Weather
 
-Future Improvements
-Weather forecast for multiple days
-Weather icons
-Automatic location detection
-Temperature unit selection
-More detailed weather information
-Improved user interface
+![Chennai Weather](./screenshots/chennai-weather.png)
+
+### Mumbai Weather
+
+![Mumbai Weather](./screenshots/mumbai-weather.png)
+
+### Invalid City
+
+![Invalid City](./screenshots/invalid-city.png)
+
+## Security
+
+The OpenWeather API key is stored in a `.env` file and should not be committed to GitHub.
+
+The `.env` file is excluded using `.gitignore`.
+
+> Never share your actual API key publicly.
+
+## Future Improvements
+
+- Weather forecast for multiple days
+- Weather icons
+- Automatic location detection
+- Temperature unit selection
+- More detailed weather information
+- Improved user interface
