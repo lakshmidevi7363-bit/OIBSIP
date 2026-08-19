@@ -1,9 +1,5 @@
 # OIBSIP – Python Programming Internship
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![Oasis Infobyte](https://img.shields.io/badge/Oasis%20Infobyte-Internship-orange)
-![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)
-
 ## About
 
 This repository contains the projects completed as part of my **Python Programming Internship at Oasis Infobyte (OIBSIP)**.
@@ -245,7 +241,7 @@ Screenshots for each project are available inside their respective project folde
 
 ---
 
-# 📚 Project Documentation
+# Project Documentation
 
 Each project contains its own README file with detailed information about:
 
@@ -260,7 +256,7 @@ Each project contains its own README file with detailed information about:
 
 ---
 
-# 👨‍💻 Internship Information
+# Internship Information
 
 **Organization:** Oasis Infobyte  
 **Program:** Python Programming Internship  
@@ -268,7 +264,7 @@ Each project contains its own README file with detailed information about:
 
 ---
 
-# 👤 Author
+# Author
 
 **Lakshmi Devi R**
 
@@ -276,10 +272,10 @@ Python Programming Intern
 
 ---
 
-# 🙏 Acknowledgement
+# Acknowledgement
 
 I would like to thank **Oasis Infobyte** for providing me with the opportunity to work on these practical Python programming projects and gain hands-on experience in application development.
 
 ---
 
-⭐ **Thank you for visiting this repository!**
+**Thank you for visiting this repository!**
