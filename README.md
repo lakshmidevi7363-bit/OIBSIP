@@ -16,23 +16,6 @@ Each task is organized in a separate folder containing the source code, document
 
 A graphical BMI Calculator developed using Python and Tkinter.
 
-#### Features
-
-- Accepts user name, weight, and height
-- Calculates Body Mass Index (BMI)
-- Displays BMI category
-- Stores BMI records using SQLite
-- Displays BMI history
-- Provides BMI trend visualization
-- User-friendly graphical interface
-
-#### Technologies Used
-
-- Python
-- Tkinter
-- SQLite
-- Matplotlib
-
 **Project:** [Python-Task2-BMICalculator](./Python-Task2-BMICalculator/)
 
 ---
@@ -41,26 +24,6 @@ A graphical BMI Calculator developed using Python and Tkinter.
 
 A Python-based Random Password Generator that allows users to create customizable passwords.
 
-#### Features
-
-- Custom password length
-- Lowercase letters
-- Uppercase letters
-- Numbers
-- Special characters
-- Password generation
-- Copy generated password to clipboard
-- Input validation
-- User-friendly graphical interface
-
-#### Technologies Used
-
-- Python
-- Tkinter
-- Random
-- String
-- Pyperclip
-
 **Project:** [Python-Task3-RandomPasswordGenerator](./Python-Task3-RandomPasswordGenerator/)
 
 ---
@@ -68,27 +31,6 @@ A Python-based Random Password Generator that allows users to create customizabl
 ### Task 4 – Weather Application
 
 A Python-based Weather Application that retrieves real-time weather information using the OpenWeather API.
-
-#### Features
-
-- Search weather by city name
-- Displays temperature
-- Displays feels-like temperature
-- Displays humidity
-- Displays atmospheric pressure
-- Displays wind speed
-- Displays weather condition
-- Handles invalid city names
-- Uses environment variables for API key security
-- Simple graphical interface
-
-#### Technologies Used
-
-- Python
-- Tkinter
-- Requests
-- python-dotenv
-- OpenWeather API
 
 **Project:** [Python-Task4-WeatherApplication](./Python-Task4-WeatherApplication/)
 
@@ -154,72 +96,6 @@ Through these projects, I gained practical experience in:
 - Dependency management using `requirements.txt`
 - Git and GitHub version control
 - Project documentation
-
----
-
-# How to Run the Projects
-
-## 1. Clone the Repository
-
-```bash
-git clone https://github.com/lakshmidevi7363-bit/OIBSIP.git
-```
-
-## 2. Navigate to a Project
-
-For example, to run the Weather Application:
-
-```bash
-cd OIBSIP/Python-Task4-WeatherApplication
-```
-
-## 3. Create a Virtual Environment
-
-```bash
-python3 -m venv venv
-```
-
-## 4. Activate the Virtual Environment
-
-### macOS / Linux
-
-```bash
-source venv/bin/activate
-```
-
-### Windows
-
-```bash
-venv\Scripts\activate
-```
-
-## 5. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-## 6. Run the Application
-
-```bash
-python app.py
-```
-
----
-
-# Weather Application API Key
-
-The Weather Application uses the **OpenWeather API** to retrieve real-time weather information.
-
-The API key is stored in a `.env` file and is excluded from Git using `.gitignore`.
-
-Create a `.env` file inside the Weather Application folder:
-
-```text
-OPENWEATHER_API_KEY=your_api_key_here
-```
-
-> ⚠️ **Important:** Never upload or publicly share your actual API key.
 
 ---
 
